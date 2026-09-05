@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB5CEBB78BBBBD2392E68FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36AE86BBF2C700F62974EA1 /* Assets.xcassets */; };
+		2FC0FEB0459E72FBCAA26ABB /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E14BAF810D8B9B716DF08D3 /* Gestures.swift */; };
+		379EC8B9C4047F46982F7A43 /* TrackpadSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9808D8863B627B5113743D /* TrackpadSurface.swift */; };
+		3F48D015015F04834B7BEB63 /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2384DA0BACAC65F2FEA9F4A /* PhoneModel.swift */; };
+		3FFF81D03FAC8369916890EA /* PeerLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C100E001FF247996093304 /* PeerLink.swift */; };
+		412602B8D7DEEC5117B66CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37E1E92B1C518E821A029F8 /* Assets.xcassets */; };
+		43E0427BD978C7121EF5C0BE /* MouseDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC3FFB467E310EBA6CFB4A /* MouseDriver.swift */; };
+		6494E60B12B1E66930025A73 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9EAB34B83F65EA5E84D713 /* Protocol.swift */; };
+		766CE9E46996A2D9DF143412 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9EAB34B83F65EA5E84D713 /* Protocol.swift */; };
+		A8FFC30E451AD656FF57FE3B /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E14BAF810D8B9B716DF08D3 /* Gestures.swift */; };
+		B27326FD2EF3B814C1C76F46 /* PalmPadMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56DA098C8FA138FB24717B1 /* PalmPadMac.swift */; };
+		D2FCAB1CE5D8838742A11EBA /* PalmPadPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF0D50AEBE90489E8AA3E2 /* PalmPadPhone.swift */; };
+		F5A893F367759782314A253A /* PeerLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C100E001FF247996093304 /* PeerLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A9EAB34B83F65EA5E84D713 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		2E14BAF810D8B9B716DF08D3 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		42C100E001FF247996093304 /* PeerLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerLink.swift; sourceTree = "<group>"; };
+		4DAC3FFB467E310EBA6CFB4A /* MouseDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseDriver.swift; sourceTree = "<group>"; };
+		7E9808D8863B627B5113743D /* TrackpadSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadSurface.swift; sourceTree = "<group>"; };
+		9B121E7D9AC63CB462C82A01 /* PalmPadMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PalmPadMac.app; path = "PalmPad Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DF0D50AEBE90489E8AA3E2 /* PalmPadPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmPadPhone.swift; sourceTree = "<group>"; };
+		B37E1E92B1C518E821A029F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36AE86BBF2C700F62974EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2384DA0BACAC65F2FEA9F4A /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		E56DA098C8FA138FB24717B1 /* PalmPadMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmPadMac.swift; sourceTree = "<group>"; };
+		FFF75B2755E93303A4D0292D /* PalmPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalmPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		402670B62431DEDC6586F99D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2E14BAF810D8B9B716DF08D3 /* Gestures.swift */,
+				42C100E001FF247996093304 /* PeerLink.swift */,
+				1A9EAB34B83F65EA5E84D713 /* Protocol.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		43179CF5470B6306ABA326EA = {
+			isa = PBXGroup;
+			children = (
+				D9FD4B48F7B8AE86AC6385B1 /* iOS */,
+				74290BB127EAC964F1EC2675 /* Mac */,
+				402670B62431DEDC6586F99D /* Shared */,
+				87A705469A5251542349B134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74290BB127EAC964F1EC2675 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C36AE86BBF2C700F62974EA1 /* Assets.xcassets */,
+				4DAC3FFB467E310EBA6CFB4A /* MouseDriver.swift */,
+				E56DA098C8FA138FB24717B1 /* PalmPadMac.swift */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		87A705469A5251542349B134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF75B2755E93303A4D0292D /* PalmPad.app */,
+				9B121E7D9AC63CB462C82A01 /* PalmPadMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9FD4B48F7B8AE86AC6385B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B37E1E92B1C518E821A029F8 /* Assets.xcassets */,
+				B1DF0D50AEBE90489E8AA3E2 /* PalmPadPhone.swift */,
+				D2384DA0BACAC65F2FEA9F4A /* PhoneModel.swift */,
+				7E9808D8863B627B5113743D /* TrackpadSurface.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0E697F7BA53A766387BFC3 /* PalmPadMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620956C9B1047E15E52E3BBE /* Build configuration list for PBXNativeTarget "PalmPadMac" */;
+			buildPhases = (
+				8C1F7FB38B924D5885E693AB /* Sources */,
+				16854644E856BF1F33144F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmPadMac;
+			packageProductDependencies = (
+			);
+			productName = PalmPadMac;
+			productReference = 9B121E7D9AC63CB462C82A01 /* PalmPadMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D926CB3258AAD600DC602A46 /* PalmPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416C880131FD1F823CE1D9AA /* Build configuration list for PBXNativeTarget "PalmPad" */;
+			buildPhases = (
+				CF55C81F9A32C9545C69DE28 /* Sources */,
+				8349DE1C7D368816153CD359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmPad;
+			packageProductDependencies = (
+			);
+			productName = PalmPad;
+			productReference = FFF75B2755E93303A4D0292D /* PalmPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A8D9D380541D37C069F3A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1C0E697F7BA53A766387BFC3 = {
+						ProvisioningStyle = Automatic;
+					};
+					D926CB3258AAD600DC602A46 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23C5DAA9E2D02C9D5519B907 /* Build configuration list for PBXProject "PalmPad" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 43179CF5470B6306ABA326EA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 87A705469A5251542349B134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D926CB3258AAD600DC602A46 /* PalmPad */,
+				1C0E697F7BA53A766387BFC3 /* PalmPadMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16854644E856BF1F33144F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB5CEBB78BBBBD2392E68FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8349DE1C7D368816153CD359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412602B8D7DEEC5117B66CB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1F7FB38B924D5885E693AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FFC30E451AD656FF57FE3B /* Gestures.swift in Sources */,
+				43E0427BD978C7121EF5C0BE /* MouseDriver.swift in Sources */,
+				B27326FD2EF3B814C1C76F46 /* PalmPadMac.swift in Sources */,
+				F5A893F367759782314A253A /* PeerLink.swift in Sources */,
+				6494E60B12B1E66930025A73 /* Protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF55C81F9A32C9545C69DE28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0FEB0459E72FBCAA26ABB /* Gestures.swift in Sources */,
+				D2FCAB1CE5D8838742A11EBA /* PalmPadPhone.swift in Sources */,
+				3FFF81D03FAC8369916890EA /* PeerLink.swift in Sources */,
+				3F48D015015F04834B7BEB63 /* PhoneModel.swift in Sources */,
+				766CE9E46996A2D9DF143412 /* Protocol.swift in Sources */,
+				379EC8B9C4047F46982F7A43 /* TrackpadSurface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FB28EB0CA68A4F4BB59EEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmpad.mac;
+				PRODUCT_NAME = "PalmPad Mac";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F9F80C44EB1C000CA848EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmpad.iphone;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7AA2F2D01CCA4FF2AD858FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A34BACA8CF0E574336684411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmpad.iphone;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E3F01D2EB628E379E5A26300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palmpad.mac;
+				PRODUCT_NAME = "PalmPad Mac";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F71F22B2A7C0202DE062E724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C5DAA9E2D02C9D5519B907 /* Build configuration list for PBXProject "PalmPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA2F2D01CCA4FF2AD858FB5 /* Debug */,
+				F71F22B2A7C0202DE062E724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		416C880131FD1F823CE1D9AA /* Build configuration list for PBXNativeTarget "PalmPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9F80C44EB1C000CA848EDC /* Debug */,
+				A34BACA8CF0E574336684411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		620956C9B1047E15E52E3BBE /* Build configuration list for PBXNativeTarget "PalmPadMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB28EB0CA68A4F4BB59EEA3 /* Debug */,
+				E3F01D2EB628E379E5A26300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A8D9D380541D37C069F3A72 /* Project object */;
+}

@@ -1,0 +1,75 @@
+name: PalmPad
+options:
+  bundleIdPrefix: com.palmpad
+  deploymentTarget:
+    iOS: "17.0"
+    macOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_STRICT_CONCURRENCY: minimal
+targets:
+  PalmPad:
+    type: application
+    platform: iOS
+    sources:
+      - path: iOS
+        excludes: [Info.plist]
+      - path: Shared
+    info:
+      path: iOS/Info.plist
+      properties:
+        CFBundleDisplayName: PalmPad
+        NSLocalNetworkUsageDescription: PalmPad discovers your Mac nearby and sends your trackpad gestures over an encrypted local connection.
+        NSBonjourServices: ["_palmpad-v1._tcp", "_palmpad-v1._udp"]
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIApplicationSupportsIndirectInputEvents: YES
+        UIRequiresFullScreen: YES
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.palmpad.iphone
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  PalmPadMac:
+    type: application
+    platform: macOS
+    sources:
+      - path: Mac
+        excludes: [Info.plist]
+      - path: Shared
+    info:
+      path: Mac/Info.plist
+      properties:
+        CFBundleDisplayName: PalmPad Mac
+        NSLocalNetworkUsageDescription: PalmPad discovers your iPhone nearby so you can use it as a wireless trackpad for this Mac.
+        NSBonjourServices: ["_palmpad-v1._tcp", "_palmpad-v1._udp"]
+        NSHighResolutionCapable: YES
+        LSApplicationCategoryType: public.app-category.utilities
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.palmpad.mac
+        PRODUCT_NAME: PalmPad Mac
+        ENABLE_APP_SANDBOX: NO
+        ENABLE_HARDENED_RUNTIME: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+schemes:
+  PalmPad:
+    build:
+      targets:
+        PalmPad: all
+    run:
+      config: Debug
+  PalmPadMac:
+    build:
+      targets:
+        PalmPadMac: all
+    run:
+      config: Debug

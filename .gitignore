@@ -1,0 +1,28 @@
+.build/
+DerivedData/
+Build/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Personal signing and account material
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.cer
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+# Local Xcode state and generated binaries
+.swiftpm/
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+*.dSYM/
+*.app/
+*.ipa
+*.zip
+*.log
